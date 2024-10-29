@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delicious Delights</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+
+    .content {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Delicious Delights</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content">
+        <h2>Welcome to Delicious Delights!</h2>
+        <p>Your go-to source for delicious food.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
